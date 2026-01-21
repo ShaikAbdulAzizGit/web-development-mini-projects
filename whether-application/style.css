@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(40, 38, 38);
+}
+
+.card {
+    /* background-color: rgb(83, 150, 177); */
+    background: linear-gradient(134deg, #00feba, #5b548a);
+    /* Doubt */
+    width: 90%;
+    max-width: 470px;
+    /* doubt */
+    color: white;
+    text-align: center;
+    margin: 25px auto 0;
+    padding: 40px 35px;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 18px;
+    margin-right: 16px;
+    flex: 1;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+
+}
+
+.details {
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 160px;
+    align-items: center;
+    
+
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; */
+    /* margin-top: 50px; */
+}
+.whether h1{
+    margin-top: -20px;
+    font-size: 80px;
+}
+.whether h2{
+    font-size: 45px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+.whether{
+    display: none;
+}
+.details img {
+    width: 60px;
+    font-weight: 400;
+}
+.col{
+    /* display: flex; */
+    
+    /* flex-direction: row; */
+    text-align: left;
+    align-items: center;
+}
+.col img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.col p{
+    margin: 0;
+}
