@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: purple;
+}
+.app{
+    background-color: #fff;
+    width: 40vw;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 20px;
+}
+.app>h1{
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.quiz>h2{
+    font-weight: 400;
+    margin: 20px 0 0;
+}
+
+.ans-btn{
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+    background: white;
+    border: 1px solid black;
+    font-weight: 400;
+    transition: all 0.3s;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+.ans-btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+.ans-btn:disabled{
+    cursor: no-drop;
+}
+#nxt-btn {
+    padding: 9px 41px;
+    font-size: 17px;
+    margin: 20px auto 0;
+    background: black;
+    color: white;
+    border: none;
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.correct{
+    background-color: lightgreen;
+}
+.in-correct{
+    background-color: red;
+}
